@@ -1,0 +1,29 @@
+.tweetBox{
+    /* display: grid; */
+    border-bottom: 10px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+.tweetBox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetButton{
+    background-color: #50b7f5 !important;
+    color: white !important;
+    border-radius: 15px  !important;
+    margin-top: 15px !important;
+    margin-left: auto !important;
+    width: 80px;
+    text-transform: inherit !important;
+}
+
+.tweetBox_input > input{
+    flex: 1 !important;
+    margin-left: 20px !important;
+    font-size: 20px !important;
+    border: none !important;
+    padding: 10px;
+    
+}
